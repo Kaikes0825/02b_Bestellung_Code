@@ -3,7 +3,7 @@
 food := leer;
 drink := leer;
 System.out.println(Herzlich Willkommen  bei MD, Ihre Bestellung bitte!);
-System.out.println(Hamburger (1), Cheeseburger (2)oder Chilliburger (3) ?);
+System.out.println(Hamburger (1), Cheeseburger (2)oder Chilicheesburger (3) ?);
  1 = System.console().readLine();
 switch (Burgerauswahl)
 {
@@ -14,7 +14,7 @@ switch (Burgerauswahl)
         food := Cheeseburger;
         break;
     case 3:
-        food := Chilliburger;
+        food := Chilicheesburger;
         break;
 }
 System.out.println(Möchten Sie ein Getränk dazu bestellen? (j/n));
